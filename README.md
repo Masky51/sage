@@ -1,6 +1,6 @@
 ## Sage
 
-Sage operation
+Sage operation & construction
 
 #### License
 
