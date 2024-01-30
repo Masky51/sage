@@ -213,3 +213,5 @@ app_license = "MIT"
 # auth_hooks = [
 # 	"sage.auth.validate"
 # ]
+
+fixtures = ["Web Page"]
