@@ -40,7 +40,8 @@
   {
    "fieldname": "full_name",
    "fieldtype": "Data",
-   "label": "Full Name"
+   "label": "Full Name",
+   "read_only": 1
   },
   {
    "fieldname": "gender",
@@ -61,7 +62,7 @@
  "image_field": "profile_img",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-01-30 17:06:07.657039",
+ "modified": "2024-02-01 13:37:30.181596",
  "modified_by": "Administrator",
  "module": "Sage",
  "name": "Student",
