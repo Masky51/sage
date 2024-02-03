@@ -14,7 +14,14 @@
   "full_name",
   "column_break_a41sp",
   "gender",
-  "profile_img"
+  "profile_img",
+  "addition_section",
+  "a",
+  "sum",
+  "column_break_ukamk",
+  "b",
+  "section_break_av25h",
+  "mark_details"
  ],
  "fields": [
   {
@@ -57,12 +64,47 @@
   {
    "fieldname": "column_break_a41sp",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "addition_section",
+   "fieldtype": "Section Break",
+   "label": "Addition"
+  },
+  {
+   "fieldname": "a",
+   "fieldtype": "Data",
+   "label": "a"
+  },
+  {
+   "fieldname": "b",
+   "fieldtype": "Data",
+   "label": "b"
+  },
+  {
+   "fieldname": "sum",
+   "fieldtype": "Data",
+   "label": "sum"
+  },
+  {
+   "fieldname": "column_break_ukamk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_av25h",
+   "fieldtype": "Section Break",
+   "label": "Student Marks"
+  },
+  {
+   "fieldname": "mark_details",
+   "fieldtype": "Table",
+   "label": "Marks",
+   "options": "Mark Detail"
   }
  ],
  "image_field": "profile_img",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-02-01 13:37:30.181596",
+ "modified": "2024-02-03 16:29:15.388593",
  "modified_by": "Administrator",
  "module": "Sage",
  "name": "Student",

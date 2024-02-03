@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-03 16:12:50.339673",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "subject",
+  "desc",
+  "score"
+ ],
+ "fields": [
+  {
+   "columns": 4,
+   "fieldname": "subject",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Subject",
+   "options": "Subject"
+  },
+  {
+   "columns": 2,
+   "fieldname": "score",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Score"
+  },
+  {
+   "columns": 4,
+   "fetch_from": "subject.desc",
+   "fieldname": "desc",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Desc"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-02-03 16:24:17.656364",
+ "modified_by": "Administrator",
+ "module": "Sage",
+ "name": "Mark Detail",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

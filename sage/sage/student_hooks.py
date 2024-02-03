@@ -36,3 +36,9 @@ def update_student(student_id,firstname,lastname,gender,profile_img):
     doc.profile_img = profile_img
     doc.save()
     return "Successfully updated student"
+
+@frappe.whitelist()
+def CalculateADD(a,b,stdId):
+    doc = frappe.get_doc("Student", stdId)
+    doc.sum = int(a) + int(b)
+    doc.save()
